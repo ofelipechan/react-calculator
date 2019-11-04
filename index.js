@@ -8,7 +8,7 @@ ReactDOM.render(
   <div>
     <h1>Calculator</h1>
     <Calculator />
-    <div><p>Made with React by Felipe Chan</p></div>
+    <div><p>Made with React by <a href="https://github.com/ofelipechan" target="_blank" id="githublink">Felipe Chan</a></p></div>
   </div>
   , document.getElementById('root'));
 
