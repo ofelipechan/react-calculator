@@ -3,7 +3,7 @@ import './Button.css';
 
 export default props => {
 
-  const className = 'button ';
+  let className = 'button ';
   className += props.operation ? 'operation ' : '';
   className += props.double ? 'double ' : '';
   className += props.triple ? 'triple ' : '';
